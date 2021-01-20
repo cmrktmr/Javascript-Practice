@@ -1,11 +1,12 @@
-let val;
+//Maps 
 
+let val;
 const numbers = new Map();
 
 numbers.set(1, "Cemre");
-numbers.set("2", "aktemur");
-numbers.set(3, "Avcılar");
-numbers.set("4", "Istanbul");
+numbers.set("2", "Aktemur");
+numbers.set(3, "Istanbul");
+numbers.set("4", "Türkiye");
 
 val = numbers;
 val = numbers.get(3);
@@ -17,3 +18,11 @@ console.log(val);
 for (var [key, value] of numbers) {
   console.log(key + " = " + value);
 }
+
+
+numbers.forEach(function (key,value) {
+  console.log(key +" - " +value);
+
+})
+
+

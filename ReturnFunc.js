@@ -4,7 +4,7 @@ function Question(hobby) {
   switch (hobby) {
     case "car":
       return function (name) {
-        console.log(name + " do you have a ar ?");
+        console.log(name + " do you have a car ?");
       };
       break;
 
